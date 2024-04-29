@@ -78,6 +78,7 @@ body {
     background-color: var(--ligth-grey);
 }
 .card > a {
+    display: block;
     width: 100%;
     padding: 13px;
     background-color: var(--orange);
@@ -89,6 +90,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--white);
+    text-align: center;
+    text-decoration: none;
 
     transition: all ease-in-out 0.3s;
 }
